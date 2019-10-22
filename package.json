@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "thought-tagging",
   "version": "1.0.0",
   "devDependencies": {
     "@kazzkiq/svelte-preprocess-scss": "^0.1.3",
