@@ -155,12 +155,10 @@
               <li>Pay close attention to where there are natural breaks in a person’s speech, demarcating a separate
                 thought.
               </li>
-              <li>Click Add a Segment at current time, to add a speech segment or “thought”. Add segments as you
-                continue
-                to
-                listen to the audio. </li>
-              <li>Review the speech segments by clicking Log segments.</li>
-              <li>Click Next to continue to the next audio file. </li>
+              <li>Click Tag Thought, to tag a speech segment or “thought”. You can adjust the start and end times by
+                dragging the sliders. Add segments as you continue to listen to the audio. </li>
+              <li>You can go back and edit segments by clicking on then in the table.</li>
+              <li>Click Finish to continue to the next audio file. </li>
             </ol>
           </div>
         </div>
