@@ -41,6 +41,17 @@
     });
   });
 
+  // AWS
+  function testAWS() {
+    AWS.config.getCredentials((err) => {
+      if (err) {
+        console.log(err.stack);
+      } else {
+        console.log("Access key: ", AWS.config.credentials.accessKeyId);
+        console.log("Secret access key: ", AWS.config.credentials.secretAccessKey);
+      }
+    });
+  }
   // Grab the start and end time for each thought and save them into firebase
   function finish() {
     if (segments) {
@@ -179,7 +190,7 @@
             <button class="{rowSelected ? 'button is-danger is-large' : 'button is-danger is-large hidden'}"
               on:click={deleteSegment}>Delete
               Segment</button>
-            <!-- <button class="button is-primary" on:click={seeSegments}>Debug: See segments</button> -->
+            <!-- <button class="button is-warning is-large" on:click={seeSegments}>Debug</button> -->
           </div>
         </div>
       </div>
